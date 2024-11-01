@@ -1,0 +1,23 @@
+span.wp_adrom_newsletter_tab:hover {
+	cursor: pointer;
+}
+
+.wp_adrom_newsletter_groupbox{
+	background-color: #fff;
+    padding: 0 10px;
+    margin: 10px 0;
+	border: 1px solid #ddd;
+}
+
+.wp_adrom_newsletter_groupbox .title{
+	margin: 0 !important;
+    padding: 20px 0 0 0;
+}
+
+pre.forceWordWrap{
+	white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;
+ }

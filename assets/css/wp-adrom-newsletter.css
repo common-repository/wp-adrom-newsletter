@@ -1,0 +1,158 @@
+/*STATUS MESSAGES*/
+.alert {
+    padding: 20px 55px 10px 90px !important;
+    margin-bottom: 30px !important;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-success-text{
+	color: #3c763d;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-danger-text{
+	color: #a94442;
+}
+
+.alert p{
+	margin:0 !important;
+	padding:0 0 10px 0 !important;
+}
+/* FORM */
+
+/*DEFINE GLOBAL INPUTS */
+.wp-adrom-newsletter-form label.desc{
+	display: inline;
+    position: relative;
+    top: -2px;
+}
+
+.wp-adrom-newsletter-form input[type="checkbox"]{
+	margin: 12px 0 20px 0 !important;
+}
+
+.wp-adrom-newsletter-form input[type="date"], 
+.wp-adrom-newsletter-form input[type="email"], 
+.wp-adrom-newsletter-form input[type="number"], 
+.wp-adrom-newsletter-form input[type="password"], 
+.wp-adrom-newsletter-form input[type="search"], 
+.wp-adrom-newsletter-form input[type="tel"], 
+.wp-adrom-newsletter-form input[type="text"], 
+.wp-adrom-newsletter-form input[type="url"], 
+.wp-adrom-newsletter-form select, 
+.wp-adrom-newsletter-form textarea {
+    padding: 10px 10px;
+    outline: none;
+    margin: 0;
+    width: 230px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+.wp-adrom-newsletter-form input.error{
+	border-color:#BD0000 !important;
+}
+
+.radioGroup{
+	padding: 10px 10px;
+	margin-bottom: 20px;
+}
+
+.radioGroup label{
+	display:inline;
+	font-weight:normal;
+	margin-right: 10px;
+	position: relative;
+	top: -3px;    
+}
+
+/* dont allow worpdress theme to override datepicker css*/
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev {
+	position:absolute !important;
+}
+
+/* SIGN OUT*/
+#wp-adrom-newsletter-form-sign-out input{
+
+}
+
+.wp-adrom-newsletter-form .preloadingForm {
+	margin: 4px 0 0 10px;
+    float: left;
+}
+
+.wp-adrom-newsletter-form .preloadingForm  .loader{
+	width: 32px;
+    height: 32px;
+	background-image: url('../img/preloader.gif');
+}
+
+.wp-adrom-newsletter-form .submitButton{	
+	float:left;
+}
+
+.wp-adrom-newsletter-form .just_an_ordinary_class_name{
+	position: absolute !important;
+    width: 0 !important; 
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+#wp-adrom-newsletter-form-sign-out .wp_adrom_newsletter_signout_email{
+	float:left;
+	margin:0 10px 0 0;
+}
+
+/* SIGN IN*/
+#wp-adrom-newsletter-form-sign-in .formWrapper{
+	clear:both;
+}
+
+#wp-adrom-newsletter-form-sign-in .formWrapper .formLabel{
+	float:left;
+	margin:8px 10px 0 0;
+	width: 150px;
+}
+
+#wp-adrom-newsletter-form-sign-in .formWrapper .formInput{
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+/*jquery validation*/
+.wp-adrom-newsletter-form .formInput .error {
+	clear:both;
+	color:#BD0000;
+}
+
+/*datepicker*/
+.ui-datepicker-prev{
+	left: 0;
+	top: -12px;
+}
+.ui-datepicker-next{
+	right: 0;
+	top: -12px;
+}

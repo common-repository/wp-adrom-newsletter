@@ -1,0 +1,383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-02-19 09:55+0100\n"
+"PO-Revision-Date: 2016-02-19 09:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: backend/options/general_page.php:11
+msgid "Global settings"
+msgstr "Allgemeine Einstellungen"
+
+#: backend/options/general_page.php:52
+msgid "Available shortcodes"
+msgstr "verfügbare Shortcodes"
+
+#: backend/options/general_page.php:59
+msgid "renders the signout form"
+msgstr "rendert das \"Abmelden\"-Formular im Frontend"
+
+#: backend/options/general_page.php:67
+msgid "renders the signin form"
+msgstr "rendert das \"Anmelden\"-Formular im Frontend"
+
+#: backend/options/general_page.php:75
+msgid "renders the confirmation page"
+msgstr "rendert die \"Anmeldung bestätigen\"-Seite im Frontend"
+
+#: backend/options/log_page.php:7
+msgid "Logs"
+msgstr ""
+
+#: backend/options/log_page.php:32
+msgid "no logs available"
+msgstr "keine Logs vorhanden"
+
+#: backend/options/signin_page.php:7 backend/options/signin_page.php:21
+#: backend/options/signout_page.php:6 backend/options/signout_page.php:21
+msgid "Form-Messages"
+msgstr "Form-Nachrichten"
+
+#: backend/options/signin_page.php:8 backend/options/signin_page.php:45
+msgid "Form settings"
+msgstr "Formeinstellung"
+
+#: backend/options/signin_page.php:10 backend/options/signin_page.php:216
+msgid "Confirmation-Page"
+msgstr "Bestätigungsseite"
+
+#: backend/options/signin_page.php:23 backend/options/signin_page.php:223
+#: backend/options/signout_page.php:24
+msgid "Available placeholders"
+msgstr "verfügbare Platzhalter"
+
+#: backend/options/signin_page.php:47
+msgid "define which fields should be rendered"
+msgstr "definiere welche Felder im Formular gerendert werden soll"
+
+#: backend/options/signin_page.php:82
+msgid "global terms and conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+#: backend/options/signin_page.php:85
+msgid ""
+"define if \"global terms & conditions\"-checkbox must be checked to submit "
+"the form"
+msgstr "definieren Sie ob die AGBs im Formular gerendert werden soll"
+
+#: backend/options/signin_page.php:99
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: backend/options/signin_page.php:106
+msgid "Button Color"
+msgstr "Button Farbe"
+
+#: backend/options/signin_page.php:113
+msgid "Logo Url"
+msgstr ""
+
+#: backend/options/signin_page.php:121 backend/options/signin_page.php:124
+msgid "alternative logo text"
+msgstr "alternativer Text zum Logo"
+
+#: backend/options/signin_page.php:130
+msgid "Website Url"
+msgstr ""
+
+#: backend/options/signin_page.php:133
+msgid "can not be edited"
+msgstr "kann nicht editiert werden"
+
+#: backend/options/signin_page.php:138
+msgid "Terms & condition page"
+msgstr "AGBs"
+
+#: backend/options/signin_page.php:160
+msgid "Companydetails for the template"
+msgstr "Firmendetails für das Template"
+
+#: backend/options/signin_page.php:164
+msgid "Name"
+msgstr ""
+
+#: backend/options/signin_page.php:171 wp-adrom-newsletter-global.php:128
+msgid "Street"
+msgstr "Straße"
+
+#: backend/options/signin_page.php:178 wp-adrom-newsletter-global.php:155
+msgid "PostalCode"
+msgstr "Postleitzahl"
+
+#: backend/options/signin_page.php:185 wp-adrom-newsletter-global.php:146
+msgid "City"
+msgstr "Stadt"
+
+#: backend/options/signin_page.php:192 wp-adrom-newsletter-global.php:173
+msgid "Country"
+msgstr "Land"
+
+#: backend/options/signin_page.php:199
+msgid "Phonenumber"
+msgstr "Telefonnummer"
+
+#: backend/options/signin_page.php:206 wp-adrom-newsletter-global.php:119
+msgid "EmailAddress"
+msgstr "Email-Adresse"
+
+#: backend/options/signin_page.php:219
+msgid "Page after open Confirmation-Link in Email"
+msgstr "Seite nach dem der Link im Email geöffnet wird"
+
+#: backend/options/signin_page.php:231
+msgid "choose page"
+msgstr "Seite auswählen"
+
+#: backend/options/signin_page.php:252
+msgid "Custom url"
+msgstr "Benutzerdefinierte Url"
+
+#: backend/options/signin_page.php:255
+msgid "define the url at which the confirmationpage should be accessible"
+msgstr "definieren Sie die Url unter welche die Seite aufgerufen werden soll"
+
+#: backend/options/signin_page.php:260 backend/options/signin_page.php:267
+#: backend/options/signin_page.php:274 backend/options/signin_page.php:281
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+#: backend/options/signin_page.php:274
+msgid "already confirmed"
+msgstr "schon bestätigt"
+
+#: backend/options/signin_page.php:281
+msgid "hash expired"
+msgstr "abgelaufen"
+
+#: backend/options/signout_page.php:7 backend/options/signout_page.php:71
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: backend/options/signout_page.php:53
+msgid "error message when wrong link with hash is detected"
+msgstr "Fehlermeldung bei ungültigem Abmeldelink mittel Hash"
+
+#: backend/options/signout_page.php:61
+msgid "error message when address could not be signed out automatic"
+msgstr ""
+"Fehlermeldung wenn die Adresse nicht automatisch abgemeldet werden kann."
+
+#: backend/options/signout_page.php:75
+msgid "Signout Page"
+msgstr "Signout Seite"
+
+#: backend/options/signout_page.php:92
+msgid ""
+"should be the same page where the signout-shortcode "
+"\"[render_wp_adrom_newsletter_form_signout]\" is used"
+msgstr ""
+"muss die gleiche Seite sein in welcher der signout-shortcode "
+"\"[render_wp_adrom_newsletter_form_signout]\" verwendet wird"
+
+#: backend/options/signout_page.php:97
+msgid "EmailSystemClientId"
+msgstr ""
+
+#: backend/options/signout_page.php:110
+msgid "Passphrase"
+msgstr ""
+
+#: backend/options/signout_page.php:117
+msgid "Salt"
+msgstr ""
+
+#: backend/options/signout_page.php:124
+msgid "Iterations"
+msgstr ""
+
+#: backend/options/signout_page.php:131
+msgid "Keysize"
+msgstr ""
+
+#: backend/options/signout_page.php:138
+msgid "Initialization Vectors"
+msgstr ""
+
+#: backend/process-forms/wp-adrom-newsletter-process-forms.php:365
+msgid "Hash is missing."
+msgstr "Kein Hash angegeben."
+
+#: frontend/wp-adrom-newsletter-render-forms.php:74
+#, php-format
+msgid ""
+"You will be signed out from the newsletter-list <b>%s</b> after you clicked "
+"on the \"Signout\"-Button"
+msgstr ""
+"Nach dem Klick auf \"Abmelden\" werden Sie von der Newsletter-Liste <b>%s</"
+"b> abgemeldet"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:142
+msgid ""
+"You will be signed out from the newsletter after you clicked on the \"Signout"
+"\"-Button"
+msgstr "Nach dem Klick auf \"Abmelden\" werden Sie vom Newsletter abgemeldet"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:146
+msgid "E-Mail-Adress"
+msgstr "E-Mail-Adresse"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:148
+#: frontend/wp-adrom-newsletter-render-forms.php:258
+msgid "This field is required"
+msgstr "Füllen sie dieses Feld aus"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:151
+msgid "Signout"
+msgstr "Abmelden"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:160
+#, php-format
+msgid ""
+"If you don't want to receive newsletters from <b>%s</b> click <a "
+"href='%s'>here</a> to unsubscribe."
+msgstr ""
+"Wenn Sie generell keine Newsletter mehr von <b>%s</b> erhalten möchten, "
+"klicken Sie bitte <a href=\"%s\">hier</a>."
+
+#: frontend/wp-adrom-newsletter-render-forms.php:243
+msgid "Male"
+msgstr "männlich"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:246
+msgid "Female"
+msgstr "weiblich"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:278
+msgid "This box must be checked"
+msgstr "Aktivieren Sie das Kontrollkästchen"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:281
+msgid ""
+"Subscribe to our newsletter<br><span style=\"font-weight:normal;\">This "
+"consent may be revoked at any time on the website or at the end of the "
+"newsletter.</span>"
+msgstr ""
+"Newsletter abonnieren.<br><span style=\"font-weight:normal;\">Diese "
+"Einwilligung kann jederzeit auf der Website oder am Ende des Newsletters "
+"widerrufen werden.</span>"
+
+#: frontend/wp-adrom-newsletter-render-forms.php:295
+msgid "Signin"
+msgstr "Anmelden"
+
+#: wp-adrom-newsletter-global.php:92
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: wp-adrom-newsletter-global.php:101
+msgid "Firstname"
+msgstr "Vorname"
+
+#: wp-adrom-newsletter-global.php:110
+msgid "Surname"
+msgstr "Nachname"
+
+#: wp-adrom-newsletter-global.php:137
+msgid "Streetnumber"
+msgstr "Straßennummer"
+
+#: wp-adrom-newsletter-global.php:164
+msgid "State"
+msgstr "Bundesland"
+
+#: wp-adrom-newsletter-global.php:182
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: wp-adrom-newsletter.php:167
+msgid "Confirmation failed"
+msgstr "Anmeldung fehlgeschlagen"
+
+#: wp-adrom-newsletter.php:170
+msgid "Confirmation succeeded"
+msgstr "Anmeldung abgeschlossen"
+
+# fürs backend (input felder)
+#: wp-adrom-newsletter.php:313
+msgid "is required"
+msgstr "wird benötigt"
+
+#~ msgid ""
+#~ "You will be signed out from the <b>%s</b> newsletter after you clicked on "
+#~ "the \"Signout\"-Button"
+#~ msgstr ""
+#~ "Nach dem Klick auf \"Abmelden\" werden Sie von der Newsletter-Liste <b>"
+#~ "%s</b> abgemeldet"
+
+#~ msgid ""
+#~ "You will be signed out from the \"%s\" newsletter after you clicked on "
+#~ "the \"Signout\"-Button"
+#~ msgstr ""
+#~ "Nach dem Klick auf \"Abmelden\" werden Sie vom \"%s\" Newsletter "
+#~ "abgemeldet"
+
+#~ msgid ""
+#~ "Subscribe to our newsletter<br><strong>This consent may be revoked at any "
+#~ "time on the website or at the end of the newsletter.</strong>"
+#~ msgstr ""
+#~ "Newsletter abonieren.<br><strong>Diese Einwilligung kann jederzeit auf "
+#~ "der Website oder am Ende des Newsletters widerrufen werden.</strong>"
+
+#~ msgid ""
+#~ "Subscribe to our newsletter<br>This consent may be revoked at any time on "
+#~ "the website or at the end of the newsletter."
+#~ msgstr ""
+#~ "Newsletter abonieren.<br>Diese Einwilligung kann jederzeit auf der "
+#~ "Website oder am Ende des Newsletters widerrufen werden."
+
+#~ msgid ""
+#~ "<strong>Subscribe to our newsletter</strong> <br>This consent may be "
+#~ "revoked at any time on the website or at the end of the newsletter."
+#~ msgstr ""
+#~ "<strong>Newsletter abonieren.</strong><br>Diese Einwilligung kann "
+#~ "jederzeit auf der Website oder am Ende des Newsletters widerrufen werden."
+
+#~ msgid ""
+#~ "I would like to be informed by e-mail. You can sign out at any time by "
+#~ "visiting this"
+#~ msgstr ""
+#~ "Newsletter abonieren.<br>Diese Einwilligung kann jederzeit auf der "
+#~ "Website oder am Ende des Newsletters widerrufen werden."
+
+#~ msgid ""
+#~ "i have read and accept the <a href=\"%s\" target=\"_blank\">terms and "
+#~ "conditions</a>"
+#~ msgstr ""
+#~ "Ich möchte zukünftig per E-Mail informiert werden. Diese Einwilligung "
+#~ "kann jederzeit auf <a href=\"%s\" target=\"_blank\">s</a> oder am Ende "
+#~ "jeder E-Mail widerrufen werden."
+
+#~ msgid ""
+#~ "I would like to be informed by e-mail. You can sign out at any time by "
+#~ "visiting this <a href=\"%s\" target=\"_blank\">link</a> or by the link "
+#~ "given at the bottom of the mails."
+#~ msgstr ""
+#~ "Ich möchte per E-Mail informiert werden. Sie können sich jederzeit melden "
+#~ "Sie sich durch den Besuch dieser <a href=\"%s\" target=\"_blank\">Link</"
+#~ "a> oder durch den Link am Ende der E-Mails angegeben."
+
+#~ msgid "Terms & conditions"
+#~ msgstr "AGBs"
+
+#~ msgid "Hello"
+#~ msgstr "Hallo"
